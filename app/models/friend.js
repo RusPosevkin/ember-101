@@ -14,4 +14,5 @@ export default Model.extend({
       return this.get('firstName') + ' ' + this.get('lastName');
     }
   })
+  
 });
