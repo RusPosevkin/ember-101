@@ -1,5 +1,6 @@
 import Ember from 'ember';
 export default Ember.Controller.extend({
+  queryParams: ['sortBy', 'sortAscending'],
   sortAscending: true,
   //
   // We'll use sortBy to hold the name of the field we want to sort by.
